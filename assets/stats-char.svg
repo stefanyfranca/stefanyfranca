@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 220" width="560" font-family="DejaVu Sans, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#58A6FF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#58A6FF" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="420" height="220" rx="16" fill="url(#bg)"/>
+
+  <g stroke="#58A6FF" stroke-opacity="0.08" stroke-width="1">
+    <line x1="0" y1="60" x2="420" y2="60"/>
+    <line x1="0" y1="100" x2="420" y2="100"/>
+    <line x1="0" y1="140" x2="420" y2="140"/>
+    <line x1="0" y1="180" x2="420" y2="180"/>
+  </g>
+
+  <path id="fillCurve" d="M 230 180 C 250 175 265 110 285 65 C 305 30 335 30 355 65 C 375 110 390 175 410 180 L 410 180 L 230 180 Z" fill="url(#area)">
+    <animate attributeName="opacity" values="0.45;0.8;0.45" dur="5s" repeatCount="indefinite"/>
+  </path>
+
+  <line x1="320" y1="45" x2="320" y2="180" stroke="#58A6FF" stroke-opacity="0.35" stroke-dasharray="4 4"/>
+  <text x="320" y="24" fill="#BFDBFE" font-size="15" text-anchor="middle" opacity="0.85">μ</text>
+
+  <path d="M 230 180 C 250 175 265 110 285 65 C 305 30 335 30 355 65 C 375 110 390 175 410 180" fill="none" stroke="#58A6FF" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="520" stroke-dashoffset="520">
+    <animate attributeName="stroke-dashoffset" from="520" to="0" dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <circle r="6" fill="#FFD166">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M 230 180 C 250 175 265 110 285 65 C 305 30 335 30 355 65 C 375 110 390 175 410 180"/>
+  </circle>
+  <circle r="2.5" fill="#0D1117">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M 230 180 C 250 175 265 110 285 65 C 305 30 335 30 355 65 C 375 110 390 175 410 180"/>
+  </circle>
+
+  <g fill="#BFDBFE" font-size="15" text-anchor="middle">
+    <text x="260" y="42">σ<animateTransform attributeName="transform" type="translate" values="0 0; 0 -9; 0 0" dur="3.2s" repeatCount="indefinite"/></text>
+    <text x="290" y="26">∫<animateTransform attributeName="transform" type="translate" values="0 0; 0 -9; 0 0" dur="4s" repeatCount="indefinite"/></text>
+    <text x="380" y="38">n<animateTransform attributeName="transform" type="translate" values="0 0; 0 -9; 0 0" dur="3.6s" repeatCount="indefinite"/></text>
+    <text x="385" y="152">p&lt;0.05<animateTransform attributeName="transform" type="translate" values="0 0; 0 -7; 0 0" dur="3.4s" repeatCount="indefinite"/></text>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -4; 0 0" dur="3s" repeatCount="indefinite"/>
+    <path d="M 102 118 Q 92 132 98 146" stroke="#C9D1D9" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M 158 116 Q 180 114 204 76" stroke="#C9D1D9" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <circle cx="207" cy="74" r="6" fill="#E6EDF3"/>
+    <rect x="114" y="150" width="9" height="16" rx="4" fill="#1E3A8A"/>
+    <rect x="137" y="150" width="9" height="16" rx="4" fill="#1E3A8A"/>
+    <rect x="102" y="112" width="56" height="42" rx="13" fill="#C9D1D9"/>
+    <path d="M 112 112 L 120 124 L 130 112 Z" fill="#2563EB"/>
+    <path d="M 148 112 L 140 124 L 130 112 Z" fill="#1E3A8A"/>
+    <g transform="translate(84 126)">
+      <rect width="30" height="22" rx="4" fill="#FFFFFF"/>
+      <rect x="12" y="1" width="6" height="5" rx="2" fill="#C9D1D9"/>
+      <rect x="5" y="9" width="5" height="8" rx="1" fill="#2563EB"/>
+      <rect x="13" y="6" width="5" height="11" rx="1" fill="#58A6FF"/>
+      <rect x="21" y="12" width="5" height="5" rx="1" fill="#2563EB"/>
+    </g>
+    <rect x="125" y="102" width="10" height="12" rx="4" fill="#E6EDF3"/>
+    <circle cx="130" cy="80" r="30" fill="#E6EDF3"/>
+    <path d="M 100 80 A 30 30 0 0 1 160 80 Z" fill="#2563EB"/>
+    <path d="M 108 62 Q 130 50 152 62" fill="none" stroke="#1E3A8A" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="117" cy="84" r="10" fill="#BFDBFE" fill-opacity="0.25" stroke="#2563EB" stroke-width="2.5"/>
+    <circle cx="143" cy="84" r="10" fill="#BFDBFE" fill-opacity="0.25" stroke="#2563EB" stroke-width="2.5"/>
+    <line x1="127" y1="84" x2="133" y2="84" stroke="#2563EB" stroke-width="2.5"/>
+    <circle cx="117" cy="84" r="2.6" fill="#0D1117"/>
+    <circle cx="143" cy="84" r="2.6" fill="#0D1117"/>
+    <path d="M 125 91 Q 130 96 135 91" fill="none" stroke="#0D1117" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="108" cy="92" r="3" fill="#FF7B9C" fill-opacity="0.5"/>
+    <circle cx="152" cy="92" r="3" fill="#FF7B9C" fill-opacity="0.5"/>
+  </g>
+
+  <text x="414" y="208" fill="#BFDBFE" font-size="11" text-anchor="end" opacity="0.6">distribuição normal · μ · σ · n</text>
+</svg>
