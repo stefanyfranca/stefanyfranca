@@ -118,7 +118,7 @@ Desenvolvedora e pesquisadora com foco em **Data Science** e **Inteligência Art
 ## 🔷 `05` estatística em ação
 
 <div align="center">
-  <img src="./assets/stats-char.svg" width="560" alt="Cientista de dados animado" />
+  <img src="./assets/stats-char.svg?v=2" width="560" alt="Cientista de dados" />
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,50:1E3A8A,100:0D1117&height=120&section=footer" width="100%" />
